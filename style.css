@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 500px;
+}
+
+.boy {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bangs {
+  position: absolute;
+  top: 100px;
+  left: 140px;
+  width: 120px;
+  height: auto;
+  cursor: grab;
+  user-select: none;
+}
